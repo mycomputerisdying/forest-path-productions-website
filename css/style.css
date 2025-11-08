@@ -350,6 +350,21 @@ footer p {
     margin: 0 16vw;
 }
 
+.contactUsText p a {
+    color: #0c6e11;
+}
+
+.contactUsIcons {
+    font-size: 1.5em;
+    color: #0c6e11;
+    cursor: pointer;
+    text-align: center;
+}
+
+.contactUsIcons a {
+    color: #0c6e11;
+}
+
 body {
     min-height: 100vh;
     background-color: #fff8e7 !important;
