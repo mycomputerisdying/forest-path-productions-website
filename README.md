@@ -16,31 +16,5 @@ forest-path-productions-site
 └── README.md         # Documentation for the project
 ```
 
-## Getting Started
-To set up and run the website, follow these steps:
-
-1. **Clone the Repository**
-   Clone the repository to your local machine using:
-   ```
-   git clone <repository-url>
-   ```
-
-2. **Navigate to the Project Directory**
-   Change into the project directory:
-   ```
-   cd forest-path-productions-site
-   ```
-
-3. **Open the HTML Files**
-   Open `index.html`, `about.html`, or `contact.html` in your web browser to view the pages.
-
-4. **Edit the Files**
-   You can edit the HTML, CSS, and JavaScript files to customize the website according to your needs.
-
-## Features
-- Consistent footer across all pages
-- Responsive design for mobile and desktop views
-- JavaScript functionality for enhanced interactivity
-
 ## License
 This project is licensed under the MIT License.
