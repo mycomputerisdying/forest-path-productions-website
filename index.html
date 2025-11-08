@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Forest Path Productions</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+        <script src="js/main.js" defer></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+    </head>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <body>
+        <div>
+            <header>
+                <a href="index.html"><img src="./images/Forest Path Logo.webp" class="logo" /></a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="ourteam.html">OUR TEAM</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <div class="hamburgerContainer" onclick="hamburgerToggle()">
+                        <i id="hamburgerIcon" class="fa fa-bars"></i>
+                    </div>
+                </div>
+            </header>
+
+            <div id="hamburgerMenu" class="hamburgerMenu" style="display:none;">
+                <nav>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="ourteam.html">Our Team</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </nav>
+            </div>
+
+            <div id="slider1" class="carousel slide headerCarousel" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="carouselEntry prettyBabiesCarousel">
+                            <div>
+                                <h2 class="carouselTitle">Pretty Babies</h2>
+                                <p class="carouselText">COMING SOON</p>
+                                <a href="#prettyBabiesProject">
+                                    <button class="carouselButton">LEARN MORE</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carouselEntry runAwayAmyCarousel">
+                            <div>
+                                <h2 class="carouselTitle">Run Away Amy</h2>
+                                <p class="carouselText">COMING SOON</p>
+                                <a href="#runAwayAmyProject">
+                                    <button class="carouselButton">LEARN MORE</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carouselEntry mySundownCarousel">
+                            <div>
+                                <h2 class="carouselTitle">My Sundown</h2>
+                                <p class="carouselText">COMING SOON</p>
+                                <a href="#mySundownProject">
+                                    <button class="carouselButton">LEARN MORE</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#slider1" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#slider1" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <main>
+                <h3 class="projectsHeader">Our Projects</h3>
+                <div class="projects">
+                    <div class="project" id="prettyBabiesProject">
+                        <div class="projectImageContainer">
+                            <a href="https://variety.com/2025/film/news/pretty-babies-ashley-benson-emily-alyn-lind-cast-1236446260/">
+                                <img class="projectImage" src="./images/Pretty Babies.webp" alt="Pretty Babies Movie Poster" />
+                            </a>
+                        </div>
+                        <div>
+                            <h3 class="projectTitle">Pretty Babies</h3>
+                            <p>IN POST-PRODUCTION
+                                <br />
+                                <br />
+                                <span style="color:#23301d">
+                                    Two teenage girls run away to Hollywood to chase their dreams of becoming famous actresses. Their pursuit leads them into prostitution, trapping them in the dark underbelly of the sex work industry as they journey from Texas to California.
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project" id="runAwayAmyProject">
+                        <div class="projectImageContainer">
+                            <a href="https://www.gofundme.com/f/help-run-away-amy-cross-the-finish-line">
+                                <img class="projectImage" src="./images/Run Away Amy.webp" alt="Run Away Amy Movie Poster" />
+                            </a>
+                        </div>
+                        <div>
+                            <h3 class="projectTitle">Run Away Amy</h3>
+                            <p>IN POST-PRODUCTION
+                                <br />
+                                <br />
+                                <span style="color:#23301d">
+                                    Run Away Amy is a feature-length documentary that follows an extraordinary woman named Amy Bright and her family over the course of two decades as she takes her sexual assault case through the justice system and years later, finds peace when she becomes a marathon runner.
+                                    <br /><br />
+                                    This story of resilience, family, and healing spans two decades, featuring candid, intimate footage of Amy and her family as they document their own journey of grieving and rebuilding. Through candid footage, video diaries, and deeply personal interviews, the Bright family paints a profound and compelling portrait of the human impact that true crime is rarely able to capture.
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project" id="mySundownProject">
+                        <div class="projectImageContainer">
+                            <img class="projectImage mySundownImage" src="./images/My Sundown.jpg" alt="My Sundown Movie Poster" />
+                        </div>
+                        <div>
+                            <h3 class="projectTitle">My Sundown</h3>
+                            <p>IN PRE-PRODUCTION
+                                <br />
+                                <br />
+                                <span style="color:#23301d">
+                                    Mallory Bartlett is dying, but she's not done yet. When she finds out her days are numbered, Mallory begrudgingly returns to her small hometown to plan the perfect party: her own funeral. With the help of her high school friend Chester and his daughter, Mallory finally reconnects with parts of her she thought she'd left behind, including her estranged rock legend father, Henry. As father and daughter confront salty old wounds and reckon with Mallory's mortality, they must become a family while they still can… and find the words to say goodbye.
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="projectImageContainer">
+                            <img class="projectImage" src="./images/Mary's Monster.webp" alt="Mary's Monster Movie Poster" />
+                        </div>
+                        <div>
+                            <h3 class="projectTitle">Mary's Monster</h3>
+                            <p>IN DEVELOPMENT
+                                <br />
+                                <br />
+                                <span style="color:#23301d">
+                                    <i>Mary's Monster</i> is a modern take on Mary Shelley's creation of <i>Frankenstein</i>. Here the Monster is her dark passenger, with her from childhood, as she becomes enthralled in the outer limits of gothic tales. The Monster is her alter ego and the exchanges with her and the Monster explore the complexities of human nature and the power of a creative mind. Her greatest fear becomes unleashing her Monster onto the world.
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="projectImageContainer">
+                            <img class="projectImage" src="./images/The Dogwood Inn.webp" alt="The Dogwood Inn Movie Poster" />
+                        </div>
+                        <div>
+                            <h3 class="projectTitle">The Dogwood Inn</h3>
+                            <p>IN DEVELOPMENT
+                                <br />
+                                <br />
+                                <span style="color:#23301d">
+                                    A disparate group of strangers coincide one night at a motel, each suffering in their own way, each oblivious to the turmoil happening right next door.
+                                    <br /><br />
+                                    A single mother with a secret. A man in the throes of a mid-life crisis. Two teens and a broken-down RV. These colorful characters seemingly have nothing in common other than a key to a room at the Dogwood Inn. Over the course of six episodes, we take an intimate look at the residents of six different rooms, whose lives may be more intertwined than they realize.
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="projectImageContainer">
+                            <img class="projectImage" src="./images/Mermaid.webp" alt="Mermaid Movie Poster" />
+                        </div>
+                        <div>
+                            <h3 class="projectTitle">Mermaid</h3>
+                            <p>COMPLETED
+                                <br />
+                                <br />
+                                <span style="color:#23301d">
+                                    After inheriting an isolated seaside cottage, a young woman finds a stranger washed up on the shore. With no means of getting medical help, she brings the woman back to her cottage and attempts to nurture her back to health. However, as time goes on, it becomes evident that something is deeply wrong with her new guest, even as the two begin to form a connection.
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <footer>
+            <div>
+                <a href="index.html">
+                    <img src="./images/Forest Path Logo.webp" class="footerLogo" />
+                </a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="ourteam.html">Our Team</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <hr>
+            <p>Copyright © 2025
+            <br />
+            Forest Path Productions.
+            <br />
+            All Rights Reserved.</p>
+        </footer>
+    </body>
+</html>
