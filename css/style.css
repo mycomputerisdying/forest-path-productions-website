@@ -224,6 +224,7 @@ footer div nav {
     width: 100%;
     background-size: cover;
     background-position: center top;
+    background-repeat: no-repeat;
     justify-content: center;
     align-items: center;
     text-align: center;
