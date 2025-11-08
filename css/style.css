@@ -399,23 +399,23 @@ body {
     }
 
     .carouselTitle {
-        font-size: 7vh !important;
+        font-size: 7.5vh !important;
         padding-bottom: 1.5vh;
-        max-width: 70vw;
+        max-width: 75vw;
         display: block;
     }
 
     .carouselText {
         font-size: 3vh !important;
         padding-bottom: 1.5vh;
-        max-width: 70vw;
+        max-width: 75vw;
         display: block;
     }
 
     .carouselButton {
         font-size: 3vh !important;
         padding: 4px 8px;
-        max-width: 70vw;
+        max-width: 75vw;
         display: block;
     }
 }
