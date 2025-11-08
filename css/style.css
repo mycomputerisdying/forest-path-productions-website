@@ -243,6 +243,12 @@ footer div nav {
     font-size: 24px !important;
 }
 
+.carouselButtonContainer {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
 .carouselButton {
     font-size: 24px;
     font-family: "DM Sans", sans-serif;
@@ -394,16 +400,22 @@ body {
     .carouselTitle {
         font-size: 8vh !important;
         padding-bottom: 1.5vh;
+        max-width: 70vw;
+        display: block;
     }
 
     .carouselText {
         font-size: 3vh !important;
         padding-bottom: 1.5vh;
+        max-width: 70vw;
+        display: block;
     }
 
     .carouselButton {
         font-size: 3vh !important;
         padding: 4px 8px;
+        max-width: 70vw;
+        display: block;
     }
 }
 
