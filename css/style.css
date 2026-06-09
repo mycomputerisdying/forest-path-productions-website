@@ -177,6 +177,22 @@ p {
     opacity: .8;
 }
 
+.projectHorizontal {
+    display: grid;
+    column-gap: 0.8em;
+    grid-template-columns: 50% 50%;
+    padding-top: 2.6em;
+    padding-bottom: 2.6em;
+}
+
+.projectHorizontalText {
+    margin-left: 8.33333%;
+}
+
+.projectHorizontalImage {
+    place-self: center; 
+}
+
 .footerLogo {
     height: 2em;
     width: auto;
@@ -223,7 +239,7 @@ footer div nav {
     display: flex;
     width: 100%;
     background-size: cover;
-    background-position: center top;
+    background-position: center center;
     background-repeat: no-repeat;
     justify-content: center;
     align-items: center;
@@ -270,6 +286,10 @@ footer div nav {
 
 .mySundownCarousel {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/My\ Sundown.jpg');
+}
+
+.jealousWhiteMenCarousel {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/Jealous\ White\ Men.webp');
 }
 
 footer p {
@@ -478,5 +498,18 @@ body {
 
     main {
         padding: 10vh 6vw;
+    }
+
+    .projectHorizontal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0.3em;
+        padding-right: 0.3em;
+        row-gap: 0;
+    }
+
+    .projectHorizontalText {
+        margin-left: 0%;
     }
 }
